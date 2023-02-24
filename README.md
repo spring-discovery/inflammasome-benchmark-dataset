@@ -36,9 +36,8 @@ Each directory includes the following items:
 | `source_plate` | Plate unique identifier across the whole dataset |
 | `staining_date` | Staining date |
 | `donor_type` | Donor type |
-| `order` | ?? |
+| `order` | Unique identifier for the cell cohort (i.e. purchase order) |
 | `donor_id` | Donor identifier |
-| `accession_date` | ??|
 | `compound_name` | Compound name |
 
 ## License
