@@ -15,7 +15,7 @@ The raw image data, along with field metadata and pre-computed features can be a
 The dataset is organized in directories, one for each of the four batches of experiments.
 Each directory includes the following items:
 - The `raw_images` directory contains 2048x2048 16bit TIFF files organized in directories for each plate. The file names encode the location in the plate (`<well>_<field>`, e.g. `A01_f00`), as well as the timepoint `t`, the z-layer `z` and the channel `c` (e.g. `t0z0c0`). Note that for this dataset all images are taken at the same timepoint (`t0`) and z-layer (`z0`).
-- The `immunofluorescence_metadata.json` file provides the information about the immunofluorescence dyes used in the experiment. The order in the `palette` arrays corresponds to `channel` numeral in the image names.
+- The `immunofluorescence_metadata.json` file provides the information about the immunofluorescence dyes used in the experiment. The order in the `palette` arrays corresponds to the `channel` numeral in the image names.
 - The `well_metadata.parquet` file contains the metadata information for each well in the experiment. See below for details about the metadata fields.
 - The `features` directory contains `.parquet` files with pre-computed features for each cell. The files are organized in directories for each plate.
 
