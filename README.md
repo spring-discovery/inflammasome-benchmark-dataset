@@ -6,11 +6,11 @@ This dataset is designed to benchmark the compound similarity method by allowing
 
 ## Explore the data
 
-The data can be visualized and analyzed in the Spring platform at https://app.springscience.com/explore-iinflammasome-benchmark.
+The data can be visualized and analyzed on the [Spring platform](https://app.springscience.com/explore-iinflammasome-benchmark).
 
 ## Download the data
 
-The raw image data, along with field metadata and pre-computed features can be accessed at [link coming soon..,].
+The raw image data, along with field metadata and pre-computed features can be accessed from the public [spring-inflammasom-benchmark-dataset](https://console.cloud.google.com/storage/browser/spring-inflammasome-benchmark-dataset) GCS bucket.
 The dataset is organized in directories, one for each of the four batches of experiments.
 Each directory includes the following items:
 - The `raw_images` directory contains 2048x2048 16bit TIFF files organized in directories for each plate. The file names encode the location in the plate (`<well>_<field>`, e.g. `A01_f00`), as well as the timepoint `t`, the z-layer `z` and the channel `c` (e.g. `t0z0c0`). Note that for this dataset all images are taken at the same timepoint (`t0`) and z-layer (`z0`).
