@@ -8,7 +8,7 @@ More details about the dataset can be found in our [SLAS2023 poster](https://www
 
 ## Explore the data
 
-The data can be visualized and analyzed on the [Spring platform](https://app.springscience.com/explore-iinflammasome-benchmark).
+The data can be visualized and analyzed on the [Spring platform](https://app.springscience.com/explore-inflammasome-benchmark).
 
 ## Download the data
 
